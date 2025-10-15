@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Chris Naranbaatar</title>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio Website</h1>
+        <p>HSC Software Engineering 2024</p>
+        <p>By:Chris Naranbaatar</p>
+    </header>
+    
+    <!-- Navigation menu -->
+    <nav>                                    <!-- nav tag is specifically for navigation -->
+        <ul>                                 <!-- Unordered list for menu items -->
+            <li><a href="#about">About</a></li>      <!-- Link to about section -->
+            <li><a href="#projects">Projects</a></li> <!-- Link to projects section -->
+            <li><a href="#skills">Skills</a></li>     <!-- Link to skills section -->
+            <li><a href="#contact">Contact</a></li>   <!-- Link to contact section -->
+        </ul>
+    </nav>
+    <!-- Add this after the nav, before </body> -->
+<main>                                       <!-- main tag for primary content -->
+    <!-- About Me Section -->
+    <section id="about">                     <!-- section with id for navigation -->
+        <h2>About Me</h2>                    <!-- Second-level heading -->
+        <p>Name: <strong>Chris Naranbaatar</strong></p>
+        <p>School: Marsden High School</p>
+        <p>Year: 11</p>
+        
+        <h3>My Journey</h3>                  <!-- Third-level heading -->
+        <p>I started coding in Year 10 and love creating websites!</p>
+    </section>
+ <section id="projects">
+    <h2>My Projects</h2>
+    
+    <article>                                <!-- article for self-contained content -->
+        <h3>Project 1: Calculator</h3>
+        <p>Description: Python calculator with GUI</p>
+        <p>Technologies: Python, Tkinter</p>
+    </article>
+    
+    <article>
+        <h3>Project 2: This Website</h3>
+        <p>Description: Portfolio website with database</p>
+        <p>Technologies: HTML, CSS, JavaScript, Python</p>
+    </article>
+</section>
+<section id="skills">
+    <h2>Technical Skills</h2>
+    
+    <table border="1">                       <!-- Table with visible border -->
+        <thead>                              <!-- Table header section -->
+            <tr>                             <!-- Table row -->
+                <th>Skill</th>               <!-- Table header cell -->
+                <th>Level</th>
+                <th>Experience</th>
+            </tr>
+        </thead>
+        <tbody>                              <!-- Table body section -->
+            <tr>
+                <td>HTML</td>                <!-- Table data cell -->
+                <td>Beginner</td>
+                <td>1 month</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Intermediate</td>
+                <td>1 year</td>
+            </tr>
+            <tr>
+                <td>SQL</td>
+                <td>Learning</td>
+                <td>Just started</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section id="contact">
+    <h2>Contact Me</h2>
+    
+    <form>                                   <!-- Form container -->
+        <label for="name">Name:</label>     <!-- Label for input -->
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="50"></textarea><br><br>
+        
+        <button type="submit">Send</button>  <!-- Submit button -->
+    </form>
+</section>
+</main>
+</body>
+<footer>                                     <!-- Footer section -->
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+    <p>Built with HTML, CSS, and JavaScript</p>
+</footer>
+</html>
